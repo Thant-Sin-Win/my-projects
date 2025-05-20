@@ -109,10 +109,6 @@ Thant Sin Win
 
 🌐 https://www.linkedin.com/in/thant-sin-win/
 
-📄 License
-
-This project is part of the IBM Data Visualization course and is for educational purposes.
-
 
 ---
 
