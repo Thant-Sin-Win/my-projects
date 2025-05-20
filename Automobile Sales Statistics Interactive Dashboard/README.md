@@ -141,5 +141,3 @@ Logical breakdown of callback functions and plots
 🧑‍💻 Author
 Thant Sin Win
 
-📄 License
-This project is part of IBM Data Analyst Professional Course and is for educational purposes.
