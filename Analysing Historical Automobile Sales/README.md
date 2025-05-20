@@ -100,6 +100,9 @@ Advertising and consumer sentiment are key influencers.
 
 Unemployment rate inversely affects sports and luxury models.
 
-🧾 License
+🧑‍💻 Author
+Thant Sin Win
 
-This project is part of the IBM Data Visualization course and is for educational purposes.
+📧 xeyzo.leo@gmail.com
+
+🌐 https://www.linkedin.com/in/thant-sin-win/
