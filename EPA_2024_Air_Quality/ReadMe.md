@@ -29,7 +29,7 @@ Performed using `pandas` in the notebook:
 ## 📊 Interactive Tableau Dashboard
 
 Explore the live dashboard hosted on Tableau Public:  
-🔗 [Click here to view the dashboard](https://public.tableau.com/app/profile/thant.sin.win/viz/EPA_Air_Quality_2024/Dashboard1)
+🔗 [Click here to view the dashboard](https://public.tableau.com/views/EPA_2024_Air_Quality_Analysis/NO2Analysis?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ### Dashboard Features:
 - **📈 Pollution Over Time:** Line chart showing pollutant trends by date
