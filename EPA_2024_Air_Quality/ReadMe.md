@@ -8,7 +8,7 @@ This project analyzes hourly air quality data collected across EPA Victoria’s 
 
 | File                         | Description                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------|
-| [Original EPA dataset (Excel)](https://data.gov.au/dataset/ds-vic-89c912fe-8bb7-4d35-8190-cda6f02919e5/distribution/dist-vic-23b5d43f-ad8a-457e-9326-ec3b3e8b438d/details?q=) | Link to original EPA dataset (raw hourly readings across all sites) |
+| [Original EPA dataset (Excel)](https://discover.data.vic.gov.au/dataset/epa-air-watch-all-sites-air-quality-hourly-averages-yearly) | Link to original EPA dataset (raw hourly readings across all sites) |
 | `cleaned_data/clean_air_quality_data.zip` | Compressed CSV of cleaned and pre-processed data ready for visualization           |
 | `EPA data.ipynb`             | Jupyter Notebook for data cleaning and preparation                                          |
 | `EPA_air_quality.twb`        | Tableau workbook file for interactive dashboard visualization                               |
