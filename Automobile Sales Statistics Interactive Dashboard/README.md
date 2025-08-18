@@ -1,4 +1,4 @@
-# 📊 Automobile Sales Statistics Dashboard
+# Automobile Sales Statistics Dashboard
 
 This project is an interactive **Dash web application** for visualizing and analyzing historical automobile sales data, focusing on two key perspectives:
 
@@ -9,11 +9,11 @@ It enables users to explore trends, patterns, and relationships between economic
 
 ---
 
-### 📊 Visualization
+### Visualization
 
 This dashboard presents dynamic visual insights into automobile sales based on user-selected criteria. Users can switch between **Yearly Statistics** and **Recession Period Statistics**, and choose specific years to filter the data accordingly.
 
-#### 🔽 Dropdown for Selecting Report Type and Year
+#### Dropdown for Selecting Report Type and Year
 The dashboard provides intuitive dropdowns for selecting the report type and filtering by year.
 
 **Year Selection Dropdown Example:**
@@ -22,7 +22,7 @@ The dashboard provides intuitive dropdowns for selecting the report type and fil
 
 ---
 
-#### 📈 Yearly Statistics Graphs
+#### Yearly Statistics Graphs
 
 When a specific year is selected, the dashboard generates a set of four visualizations based on data from that year, including trends, vehicle types, and advertisement expenditures.
 
@@ -32,7 +32,7 @@ When a specific year is selected, the dashboard generates a set of four visualiz
 
 ---
 
-#### 📉 Recession Period Statistics Graphs
+#### Recession Period Statistics Graphs
 
 For recession periods, the dashboard displays how automobile sales, vehicle types, and advertising expenditures were affected during those times.
 
@@ -42,7 +42,7 @@ For recession periods, the dashboard displays how automobile sales, vehicle type
 
 ---
 
-## 🔧 Features
+## Features
 
 - Dropdown menu to select report type:
   - `Yearly Statistics`
@@ -56,7 +56,7 @@ For recession periods, the dashboard displays how automobile sales, vehicle type
 
 ---
 
-## 📂 Files Included
+## Files Included
 
 | File                                  | Description                                                  |
 |---------------------------------------|--------------------------------------------------------------|
@@ -66,7 +66,7 @@ For recession periods, the dashboard displays how automobile sales, vehicle type
 
 ---
 
-## 🗃️ Dataset
+## 🗃Dataset
 
 The dataset is loaded directly from a public cloud URL: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/historical_automobile_sales.csv
 
@@ -90,7 +90,7 @@ The dataset contains monthly data with the following features:
 
 ---
 
-## 📉 Recession Periods Considered
+## Recession Periods Considered
 
 - **1980**
 - **1981–1982**
@@ -101,7 +101,7 @@ The dataset contains monthly data with the following features:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -120,7 +120,7 @@ python Automobile_Sales_Statistics_Interactive_Dashboard.py
 Open your browser and navigate to:
 http://127.0.0.1:8050/
 
-🧠 Insights You Can Discover
+Insights That Can be Discovered
 How recession impacts average automobile sales
 
 Vehicle types most affected during economic downturns
@@ -138,10 +138,11 @@ Markdown commentary
 
 Logical breakdown of callback functions and plots
 
-🧑‍💻 Author
+Author
 Thant Sin Win
 
 📧 xeyzo.leo@gmail.com
 
 🌐 https://www.linkedin.com/in/thant-sin-win/
+
 
