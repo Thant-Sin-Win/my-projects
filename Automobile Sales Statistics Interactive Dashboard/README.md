@@ -129,7 +129,7 @@ Seasonal trends in monthly sales
 
 Influence of advertising and unemployment on consumer behavior
 
-📘 Jupyter Notebook
+### Jupyter Notebook
 Refer to dashboard_explained.ipynb for:
 
 Annotated code
@@ -138,11 +138,12 @@ Markdown commentary
 
 Logical breakdown of callback functions and plots
 
-Author
+### Author
 Thant Sin Win
 
 📧 xeyzo.leo@gmail.com
 
 🌐 https://www.linkedin.com/in/thant-sin-win/
+
 
 
