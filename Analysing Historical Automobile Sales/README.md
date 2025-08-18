@@ -1,10 +1,10 @@
-# 🚗 Automobile Sales Trend Analysis During Recession Periods
+# Automobile Sales Trend Analysis During Recession Periods
 
 This project analyzes historical automobile sales data in the United States, focusing on how various **recession periods** have impacted the automotive industry. The analysis includes visualizations comparing key metrics such as sales trends, GDP, unemployment, pricing, advertising, and consumer confidence.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 The dataset contains monthly data with the following features:
 
@@ -25,7 +25,7 @@ The dataset contains monthly data with the following features:
 
 ---
 
-## 📉 Recession Periods Considered
+## Recession Periods Considered
 
 - **1980**
 - **1981–1982**
@@ -36,7 +36,7 @@ The dataset contains monthly data with the following features:
 
 ---
 
-## 📊 Visualizations Included
+## Visualizations Included
 
 ### Yearly sales trends with recession indicators
 ![Yearly sales trends with recession indicators](images/Automobile%20Sales.png)
@@ -76,7 +76,7 @@ The dataset contains monthly data with the following features:
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
@@ -91,7 +91,7 @@ pip install pandas matplotlib seaborn folium
 
 Analysing Historical Automobile Sales.ipynb
 
-📌 Insights Summary
+Insights Summary
 Sports cars are highly sensitive to economic downturns.
 
 Supermini and executive cars face sales drops in recessions.
@@ -100,9 +100,10 @@ Advertising and consumer sentiment are key influencers.
 
 Unemployment rate inversely affects sports and luxury models.
 
-🧑‍💻 Author
+Author
 Thant Sin Win
 
 📧 xeyzo.leo@gmail.com
 
 🌐 https://www.linkedin.com/in/thant-sin-win/
+
