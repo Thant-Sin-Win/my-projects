@@ -1,10 +1,10 @@
-# 🔬 SECOM Semiconductor Failure Analysis with Python & Power BI
+# SECOM Semiconductor Failure Analysis with Python & Power BI
 
 This project analyzes sensor data from a semiconductor manufacturing process to identify patterns in failure cases. We used Python for data cleaning, modeling, and visualization. Then, we exported the processed dataset and created an interactive dashboard in Power BI.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To explore and model the SECOM dataset in order to:
 - Identify factors contributing to production failures
@@ -13,7 +13,7 @@ To explore and model the SECOM dataset in order to:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Python**: pandas, numpy, scikit-learn, seaborn, matplotlib
 - **Power BI**: Bar charts, scatter plots, slicers, heatmaps
@@ -21,7 +21,7 @@ To explore and model the SECOM dataset in order to:
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 | File / Folder                | Description                                          |
 |-----------------------------|------------------------------------------------------|
@@ -37,24 +37,24 @@ To explore and model the SECOM dataset in order to:
 
 ---
 
-## 🔍 Workflow Overview
+## Workflow Overview
 
-### 🧹 1. Data Cleaning & Preprocessing
+### 1. Data Cleaning & Preprocessing
 - Merged feature and label files
 - Imputed missing values using mean
 - Removed low-variance features
 
-### 📊 2. Exploratory Data Analysis
+### 2. Exploratory Data Analysis
 - Visualized label distribution
 - Identified high-variance features
 - Created correlation heatmap for top 20 features
 
-### 🔠 3. Feature Selection & Modeling
+### 3. Feature Selection & Modeling
 - Trained and evaluated several classifiers (Random Forest, Logistic Regression, SVM)
 - Used Random Forest to extract feature importances
 - Applied PCA for dimensionality reduction
 
-### 📈 4. Visualization (Python & Power BI)
+### 4. Visualization (Python & Power BI)
 - Exported model results to CSV
 - Created interactive dashboard in Power BI including:
   - PCA scatter plot
@@ -65,33 +65,33 @@ To explore and model the SECOM dataset in order to:
 
 ---
 
-## 🖼️ Visual Highlights
+## Visual Highlights
 
-### 🔢 Label Distribution
+### Label Distribution
 
 ![Label Distribution](Images/Label%20Distribution.png)
 
 ---
 
-### 🔥 Correlation Heatmap (Top 20 High Variance Features)
+### Correlation Heatmap (Top 20 High Variance Features)
 
 ![Correlation Heatmap](Images/Correlation%20Heatmap.png)
 
 ---
 
-### 🌐 PCA Scatter Plot
+### PCA Scatter Plot
 
 ![PCA Scatter Plot](Images/PCA%20Scatter%20plot.png)
 
 ---
 
-### 🧠 Top 20 Features from Random Forest
+### Top 20 Features from Random Forest
 
 ![Top 20 Features](Images/Top%2020%20Features.png)
 
 ---
 
-### 📊 Power BI Dashboard
+### Power BI Dashboard
 
 This dashboard was created using the outputs from the Jupyter Notebook.
 
@@ -99,7 +99,7 @@ This dashboard was created using the outputs from the Jupyter Notebook.
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 - Strong correlation between a few key sensors and failure labels
 - PCA showed some visible separation between failure and non-failure cases
@@ -108,11 +108,11 @@ This dashboard was created using the outputs from the Jupyter Notebook.
 
 ---
 
-## 📜 Credits & Dataset
+## Credits & Dataset
 
 - Dataset: SECOM Manufacturing Data from [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/SECOM)
 
-👤Created by:
+## Created by:
 Thant Sin Win
 
 📧 xeyzo.leo@gmail.com
@@ -120,3 +120,4 @@ Thant Sin Win
 🌐 https://www.linkedin.com/in/thant-sin-win/
 
 ---
+
