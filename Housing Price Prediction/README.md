@@ -3,7 +3,7 @@
 
 This project performs data analysis and builds regression models to predict house prices based on various features.
 
-## 🔍 Objective
+## Objective
 
 To explore the dataset, visualize important relationships, and develop linear and polynomial regression models to predict house prices.
 
@@ -33,7 +33,7 @@ The dataset is sourced from a public housing dataset containing features such as
    - Ridge Regression
 5. **Model Evaluation**: Use R² score and train-test split evaluation.
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ### 1. Price Distribution for House With/ Without Waterfront View
 ![Waterfront View vs Price](Images/Price%20Distribution%20for%20house.png)
@@ -47,12 +47,12 @@ The dataset is sourced from a public housing dataset containing features such as
 - There is a **positive linear relationship** between the above-ground square footage and house price.
 - The regression line indicates that larger houses typically have higher prices.
 
-## 🧠 Model Building & Evaluation
+## Model Building & Evaluation
 
 - A **Linear Regression model** was built using selected features and achieved reasonable performance.
 - A **Polynomial Ridge Regression model** showed better performance due to its ability to model non-linear patterns and reduce overfitting.
 
-### ✅ Final Result Summary
+### Final Result Summary
 
 - **Waterfront view** and **above-ground square footage** are strong indicators of house price.
 - The **Polynomial Ridge Regression** provided the highest R² score, indicating it is the best-fit model among those tested.
@@ -72,7 +72,7 @@ The dataset is sourced from a public housing dataset containing features such as
 - seaborn
 - scikit-learn
 
-👤 Author
+## Author
 Thant Sin Win
 
 📧 xeyzo.leo@gmail.com
