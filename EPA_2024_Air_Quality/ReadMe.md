@@ -1,10 +1,10 @@
-# 🏙️ Victoria Air Quality Analysis – 2024
+# Victoria Air Quality Analysis – 2024
 
 This project analyzes hourly air quality data collected across EPA Victoria’s monitoring stations during 2024. Using Python for data preparation and Tableau for interactive visualization, the project highlights trends in pollutants such as PM2.5, PM10, Ozone, and more — helping uncover patterns in air quality across seasons and suburbs.
 
 ---
 
-## 📁 Files Included
+## Files Included
 
 | File                         | Description                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------|
@@ -15,7 +15,7 @@ This project analyzes hourly air quality data collected across EPA Victoria’s 
 
 ---
 
-## 🧹 Data Preparation Steps (Python)
+## Data Preparation Steps (Python)
 
 Performed using `pandas` in the notebook:
 - Parsed datetime columns and extracted hour, weekday, month, and season
@@ -26,16 +26,16 @@ Performed using `pandas` in the notebook:
 
 ---
 
-## 📊 Interactive Tableau Dashboard
+## Interactive Tableau Dashboard
 
 Explore the live dashboard hosted on Tableau Public:  
 🔗 [Click here to view the dashboard](https://public.tableau.com/views/EPA_2024_Air_Quality_Analysis/NO2Analysis?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ### Dashboard Features:
-- **📈 Pollution Over Time:** Line chart showing pollutant trends by date
-- **📊 Pollution by Location:** Bar chart comparing average pollutant levels by suburb
-- **🌡️ Hourly Pollution Patterns:** Heatmap of PM2.5 by hour and weekday
-- **🗺️ Station Map:** Geographic distribution of pollutant readings across Victoria
+- **Pollution Over Time:** Line chart showing pollutant trends by date
+- **Pollution by Location:** Bar chart comparing average pollutant levels by suburb
+- **Hourly Pollution Patterns:** Heatmap of PM2.5 by hour and weekday
+- **Station Map:** Geographic distribution of pollutant readings across Victoria
 
 Includes interactive filters for:
 - **Parameter name** (e.g., PM2.5, NO₂)
@@ -44,7 +44,7 @@ Includes interactive filters for:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Python 3 (pandas, numpy)**
 - **Jupyter Notebook**
@@ -53,13 +53,13 @@ Includes interactive filters for:
 
 ---
 
-## 📌 Example Insight
+## Example Insight
 
 > In winter 2024, PM2.5 levels spiked notably on July 31st and August 4th, peaking at 19.24 µg/m³. These values are likely influenced by cold-weather conditions such as stagnant air and wood heater usage. Such insights support better public awareness and planning for seasonal pollution spikes.
 
 ---
 
-## 🚀 Possible Future Enhancements
+## Possible Future Enhancements
 
 - Integrate local weather data (temperature, wind speed, humidity)
 - Predictive modeling for future pollution events
@@ -67,15 +67,16 @@ Includes interactive filters for:
 
 ---
 
-## 👤 Author
+## Author
 
 **Thant Sin Win**  
-📌 Data Analyst | Python • SQL • Tableau  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/thant-sin-win)
+Data Analyst | Python • SQL • Tableau  
+[LinkedIn Profile](https://www.linkedin.com/in/thant-sin-win)
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and portfolio use only.  
 All source data is publicly provided by **EPA Victoria**.
+
