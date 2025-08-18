@@ -1,4 +1,4 @@
-# 📊 Tesla Stock and Revenue Data Visualization Project
+# Tesla Stock and Revenue Data Visualization Project
 
 This project visualizes Tesla's historical **stock prices** and **revenue data** using data extracted from two sources:  
 - **Yahoo Finance API (`yfinance`)** for stock prices  
@@ -8,7 +8,7 @@ The visualization is created using **Plotly**, an interactive graphing library t
 
 ---
 
-## 🧠 Objective
+## Objective
 
 The main goal of this project is to:
 - Extract and clean Tesla stock price and revenue data from different sources
@@ -17,7 +17,7 @@ The main goal of this project is to:
 
 ---
 
-## 📦 Technologies Used
+## Technologies Used
 
 | Tool/Library        | Purpose                                       |
 |---------------------|-----------------------------------------------|
@@ -30,14 +30,14 @@ The main goal of this project is to:
 
 ---
 
-## 📈 Final Output
+## Final Output
 
 ![Tesla Stock and Revenue Chart](Tesla_graph.png)
 
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ### Step 1: Install Required Libraries
 ```bash
@@ -74,7 +74,7 @@ Step 5: Visualize with Plotly
 
 make_graph(tesla_data, tesla_revenue, "Tesla")
 
-📊 Key Features
+# Key Features
 Combines API data and web scraped data
 
 Interactive dual-subplot visualization:
@@ -85,14 +85,14 @@ Tesla’s quarterly revenue over time
 
 Cleaned and transformed financial data ready for analysis
 
-📁 Project Structure
+# Project Structure
 
 Tesla-Stock-Visualization/
 ├── README.md
 ├── Tesla Stock and Revenue Data Visualization Project.ipynb
 ├── tesla_graph.png
 
-🚀 Future Improvements
+# Future Improvements
 
 Add user input for choosing any stock (not just Tesla)
 
@@ -102,7 +102,7 @@ Include financial ratios or other KPIs (e.g. profit margin, PE ratio)
 
 Export the graphs as HTML reports
 
-👤 Author
+## Author
 Thant Sin Win
 
 📧 xeyzo.leo@gmail.com
@@ -111,5 +111,6 @@ Thant Sin Win
 
 
 ---
+
 
 
