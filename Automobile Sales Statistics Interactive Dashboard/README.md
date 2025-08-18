@@ -138,12 +138,13 @@ Markdown commentary
 
 Logical breakdown of callback functions and plots
 
-###Author
+### Author
 Thant Sin Win
 
 📧 xeyzo.leo@gmail.com
 
 🌐 https://www.linkedin.com/in/thant-sin-win/
+
 
 
 
