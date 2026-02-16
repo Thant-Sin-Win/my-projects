@@ -36,6 +36,7 @@ SecurityEvent \| where EventID == 4625 \| summarize FailedAttempts =
 count() by IpAddress, Account, bin(TimeGenerated, 5m) \| where
 FailedAttempts \>= 5
 
+
 **Successful Login After Multiple Failures**
 
 let window = 15m;
