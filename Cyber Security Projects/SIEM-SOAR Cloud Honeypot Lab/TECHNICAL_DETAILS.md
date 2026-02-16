@@ -56,6 +56,30 @@ Action: Run Playbook -- Auto-Block-BruteForce-Attacker-IP
 
 ------------------------------------------------------------------------
 
+## Entity Extraction
+
+Initial implementation using the default IP extraction method returned
+an empty result due to the playbook executing prior to incident
+enrichment.
+
+This was resolved by:
+
+-   Adding a delay after the incident trigger
+-   Iterating through the relatedEntities field directly
+
+------------------------------------------------------------------------
+
+## NSG Rule Creation
+
+Azure Management REST API was used to dynamically create inbound deny
+rules to block attacker IP addresses from accessing TCP port 3389.
+
+Authentication was handled using the Logic App system-assigned Managed
+Identity with Network Contributor role assigned at the Network Security
+Group resource level.
+
+------------------------------------------------------------------------
+
 ## Evidence
 
 ### Detection
@@ -106,3 +130,9 @@ Rule](Screenshots/09_nsg_deny_rule.png)
 Correlation-based detection of successful login following multiple
 failed attempts requires multi-event logic and has not yet been
 implemented.
+
+Future work will include:
+
+-   Detection using Event ID 4624 following repeated 4625 events
+-   Additional automation conditions
+-   Workbook-based attacker IP geo-visualisation
