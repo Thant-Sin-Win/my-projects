@@ -105,7 +105,9 @@ FailedAttempts \>= 5
 ## Scope and Limitations
 
 Detection of successful authentication following multiple failed login attempts has been implemented using correlation of Security Event IDs 4624 and 4625, as demonstrated in Figure 4 and Figure 5.
+
 However, automated containment for this compromise scenario has not yet been integrated into the current SOAR playbook workflow. At present, automated response actions are triggered based on threshold-based detection of repeated failed authentication attempts.
+
 Future development will extend automation capabilities to include dynamic containment upon detection of successful authentication following multiple failed login attempts.
 
 ------------------------------------------------------------------------
