@@ -30,10 +30,12 @@ Relevant events:
 
 ## Analytic Rule
 
+**Brute Force Attack Detected
 SecurityEvent \| where EventID == 4625 \| summarize FailedAttempts =
 count() by IpAddress, Account, bin(TimeGenerated, 5m) \| where
 FailedAttempts \>= 5
 
+**Successful Login After Multiple Failures
 let window = 15m;
 let threshold = 5;
 let failures = SecurityEvent
@@ -147,12 +149,12 @@ Rule](Screenshots/09_nsg_deny_rule.png)
 
 ## Current Limitations
 
-Correlation-based detection of successful login following multiple
-failed attempts requires multi-event logic and has not yet been
-implemented.
+Correlation-based detection of successful login following multiple failed authentication attempts has been implemented through the use of Security Event IDs 4625 and 4624.
+
+However, automated containment for this compromise scenario has not yet been integrated into the current SOAR playbook workflow. At present, automated response actions are triggered based on threshold-based detection of repeated failed authentication attempts.
 
 Future work will include:
 
--   Detection using Event ID 4624 following repeated 4625 events
--   Additional automation conditions
--   Workbook-based attacker IP geo-visualisation
+- Integration of automated containment for successful authentication following multiple failed login attempts
+- Additional automation conditions for compromise-based detections
+- Workbook-based attacker IP geo-visualisation (configuration unsuccessful due to mapping limitations)
