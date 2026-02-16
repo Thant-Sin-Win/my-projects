@@ -44,6 +44,7 @@ Completed:
 -   Forwarding of Windows Security Event logs to Log Analytics Workspace
 -   Enabling Microsoft Sentinel for monitoring
 -   Creation of analytic rule for failed login detection (Event ID 4625)
+-   Creation of analytic rule for successful login after multiple failed attempts (Event ID 4624)
 -   Automatic incident generation within Sentinel
 -   Creation of automation rule to trigger playbook
 -   Development of Logic App playbook
@@ -53,15 +54,11 @@ Completed:
 -   Dynamic creation of inbound deny rule for TCP 3389
 -   Verification of playbook execution
 -   Confirmation of deny rule creation in NSG
-
-In Progress:
-
 -   Blocking of subsequent RDP attempts from attacker IP
 
 Not Implemented:
 
--   Detection of successful login after multiple failed attempts
--   Workbook-based geo-visualisation of attacker IPs
+-   Workbook-based geo-visualisation of attacker IPs (Configuration attempt unsuccessful due to mapping limitations)
 
 ------------------------------------------------------------------------
 
@@ -107,20 +104,18 @@ FailedAttempts \>= 5
 
 ## Scope and Limitations
 
-Detection of successful authentication following multiple failed login
-attempts requires multi-event correlation across Security Event IDs 4624
-and 4625. This functionality has not yet been implemented within the
-current automation workflow.
+Detection of successful authentication following multiple failed login attempts has been implemented using correlation of Security Event IDs 4624 and 4625, as demonstrated in Figure 4 and Figure 5.
+However, automated containment for this compromise scenario has not yet been integrated into the current SOAR playbook workflow. At present, automated response actions are triggered based on threshold-based detection of repeated failed authentication attempts.
+Future development will extend automation capabilities to include dynamic containment upon detection of successful authentication following multiple failed login attempts.
 
 ------------------------------------------------------------------------
 
 ## Next Steps
 
--   Implement correlation rule for successful login after multiple
-    failures
--   Extend playbook trigger conditions
--   Implement attacker IP geo-visualisation
--   Harden test access controls to avoid account lockout
+- Integrate automated containment for successful login following multiple failed authentication attempts
+- Extend playbook trigger conditions to include compromise-based detections
+- Implement attacker IP geo-visualisation using Sentinel Workbooks
+- Harden test access controls to avoid account lockout during simulation
 
 ------------------------------------------------------------------------
 
