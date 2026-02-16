@@ -168,8 +168,8 @@ Success](Screenshots/08_http_success.png)
 **Figure 9 -- NSG Deny Rule Created** ![NSG Deny
 Rule](Screenshots/09_nsg_deny_rule.png)
 
-**Figure 10 -- Incident Timeline Updated** ![Incident
-Timeline](Screenshots/10_incident_timeline.png)
+**Figure 10 -- Failed RDP Access After Automated Containment Action** ![Incident
+Timeline](Screenshots/10_Failed_RDP.png)
 
 ------------------------------------------------------------------------
 
