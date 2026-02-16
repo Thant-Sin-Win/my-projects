@@ -34,6 +34,26 @@ SecurityEvent \| where EventID == 4625 \| summarize FailedAttempts =
 count() by IpAddress, Account, bin(TimeGenerated, 5m) \| where
 FailedAttempts \>= 5
 
+let window = 15m;
+let threshold = 5;
+let failures = SecurityEvent
+| where EventID == 4625
+| where IpAddress != "-" and isnotempty(IpAddress)
+| extend Ip=tostring(IpAddress), UserName=tostring(TargetUserName)
+| project FailureTime=TimeGenerated, Ip, UserName;
+let successes = SecurityEvent
+| where EventID == 4624
+| where IpAddress != "-" and isnotempty(IpAddress)
+| extend Ip=tostring(IpAddress), UserName=tostring(TargetUserName)
+| project SuccessTime=TimeGenerated, Ip, UserName;
+successes
+| join kind=inner failures on Ip, UserName
+| where FailureTime between (SuccessTime - window .. SuccessTime)
+| summarize FailedCount=count() by SuccessTime, Ip, UserName
+| where FailedCount >= threshold
+| project SuccessTime, IpAddress=Ip, User=UserName, FailedCount
+| order by SuccessTime desc
+
 ------------------------------------------------------------------------
 
 ## Automation Rule
