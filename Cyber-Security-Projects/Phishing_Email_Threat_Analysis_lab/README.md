@@ -78,6 +78,10 @@ Although no confirmed compromise was identified during this investigation, succe
 
 ### 4) Sender IP Reputation (VirusTotal)
 
+The sending IP address returned a clean reputation score (0/93 detections) on VirusTotal at the time of analysis.
+
+It should be noted that a clean reputation score does not necessarily indicate legitimacy, as newly registered or low-activity infrastructure used in phishing campaigns may not yet be flagged by security vendors. Such findings were considered alongside other phishing indicators identified during the investigation.
+
 ![VirusTotal IP Reputation](Screenshots/VirusTotal/Sender_IP_VirusTotal.png)
 
 ### 5) Domain Registration (Whois)
