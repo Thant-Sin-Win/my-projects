@@ -20,9 +20,9 @@ The email also contained urgency-based messaging, stating that failure to comply
 
 Email header analysis was conducted using MXToolbox to identify the sending server and originating IP address. The header indicated that the email originated from the domain `example.com` with the sending IP address `93.184.216.34`.
 
-IP reputation analysis was performed using VirusTotal, and domain registration details were obtained through a Whois lookup.
+IP reputation analysis was performed using VirusTotal. The sending IP address returned a clean reputation score (0/93 detections) at the time of analysis. It should be noted that a clean reputation score does not necessarily indicate legitimacy, as newly provisioned or low-activity infrastructure used in phishing campaigns may not yet be flagged by security vendors. This finding was therefore assessed in conjunction with other phishing indicators identified in the email.
 
-URL analysis of the embedded hyperlink (`https://example.com/reset-password`) was attempted using URLScan. The scan was prevented by platform restrictions likely due to domain protection policies applied to reserved or high-reputation domains. This limitation was documented as part of the investigation.
+URL analysis of the embedded hyperlink (`https://example.com/reset-password`) was attempted using URLScan. The scan was prevented by platform restrictions likely associated with domain protection policies applied to reserved or high-reputation domains. This limitation was documented as part of the investigation.
 
 Multiple phishing indicators were identified, including suspicious sender impersonation and urgency-driven language intended to induce user action.
 
